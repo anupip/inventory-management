@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+</head>
+<body>
+  <h2>Add Product</h2>
+  <input id="name" placeholder="name"><br>
+  <input id="type" placeholder="type"><br>
+  <input id="sku" placeholder="sku"><br>
+  <input id="image_url" placeholder="image url"><br>
+  <input id="description" placeholder="description"><br>
+  <input id="quantity" type="number" placeholder="quantity"><br>
+  <input id="price" type="number" placeholder="price"><br>
+  <button onclick="addProduct()">Add Product</button>
+
+  <h2>All Products</h2>
+  <button onclick="getProducts()">Get All</button>
+  <ul id="productList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
