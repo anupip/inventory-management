@@ -29,9 +29,9 @@ A modern, full-stack inventory management application built with **React** and *
 
 ### Frontend
 
-- React 19, React Router DOM
-- Tailwind CSS 4, Headless UI, Heroicons
-- Axios, Vite
+- HTML
+- Tailwind CSS
+- JavaScript
 
 ### Backend
 
